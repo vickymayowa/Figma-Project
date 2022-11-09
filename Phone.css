@@ -9,13 +9,20 @@
 .first{
   display: none;
 }
-/* .pics{
-  display: block;
-} */
 .pics img{
   width: 200px;
 }
 .menu {
   position: absolute;
   top: -10px;
+}
+.new{
+  position: absolute;
+  bottom: 420px;
+  left: 70px;
+}
+.news{
+  position: absolute;
+  bottom: -420px;
+  left: -270px;
 }

@@ -1,0 +1,21 @@
+.toggle{
+  margin-left: 370px;
+  margin-top: -30px;
+  
+}
+.span{
+  display: none;
+}
+.first{
+  display: none;
+}
+/* .pics{
+  display: block;
+} */
+.pics img{
+  width: 200px;
+}
+.menu {
+  position: absolute;
+  top: -10px;
+}

@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.span{
+    position: absolute;
+    top: 10px;
+    z-index: 2;
+    gap: 51vw;
+}
+
+.spans{
+    position: absolute;
+    top: 10px;
+    z-index: 2;
+}
+
+.wood{
+    position: absolute;
+    top: 240px;
+    left: 300px;
+    z-index: 2;
+    margin-left: -120px;
+}
+.span3{
+    position: absolute;
+    top: 520px;
+    left: 1200px;
+    z-index: 2;
+}
+.img img{
+    border-radius: 15px;
+}
+.new{
+    position: absolute;
+    bottom: -70px;
+    left: 570px;
+}
+.news{
+    position: absolute;
+    bottom: -420px;
+    left: 570px;
+}
+.new3{
+    position: absolute;
+    bottom: -63px;
+    left: 830px;
+}
+.new4{
+    position: absolute;
+    bottom: -63px;
+    left: 1200px;
+}
+/* .pics{
+    display: flex;
+  } */
+  .togg{
+      margin-left: -90px;
+      border-radius: 30px;
+  }

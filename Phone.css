@@ -12,7 +12,7 @@
 .menu {
   position: absolute;
   top: 90vh;
-  z-index: 2;
+  z-index: 2; 
 }
 .new{
   position: absolute;

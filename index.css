@@ -54,3 +54,15 @@
       margin-left: -90px;
       border-radius: 30px;
   }
+  .head{
+      position: absolute;
+      left: 90vw;
+  }
+.teem{
+    position: relative;
+    left: 2vw;
+    top: 70px;
+}
+.HT{
+    border: 1px solid;
+}

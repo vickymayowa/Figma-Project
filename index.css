@@ -3,20 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .span{
     position: absolute;
     top: 10px;
     z-index: 2;
     gap: 51vw;
 }
-
 .spans{
     position: absolute;
     top: 10px;
     z-index: 2;
 }
-
 .wood{
     position: absolute;
     top: 240px;
@@ -53,9 +50,6 @@
     bottom: -63px;
     left: 1200px;
 }
-/* .pics{
-    display: flex;
-  } */
   .togg{
       margin-left: -90px;
       border-radius: 30px;

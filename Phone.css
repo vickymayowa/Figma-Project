@@ -1,7 +1,6 @@
 .toggle{
   margin-left: 370px;
   margin-top: -30px;
-  
 }
 .span, .first, .footer{
   display: none;
@@ -25,5 +24,13 @@
   left: -270px;
 }
 body{
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
+}
+.tem{
+  display: none;
+}
+.number{
+  position: absolute;
+  top: 255vh;
+  right: 10px;
 }

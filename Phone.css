@@ -54,3 +54,6 @@ body{
   position: absolute;
   left: -4vw;
 }
+.mee{
+  display: none;
+}

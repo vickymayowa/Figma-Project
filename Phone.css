@@ -16,7 +16,7 @@
 }
 .new{
   position: absolute;
-  bottom: -120px;
+  bottom: -100px;
   left: 70px;
 }
 .news{
@@ -25,7 +25,7 @@
   left: -270px;
 }
 body{
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 .tem{
   display: none;
@@ -37,16 +37,20 @@ body{
 }
 .news{
   position: absolute;
-  bottom: -330px;
+  bottom: -310px;
   left: 70px;
 }
 .new3{
   position: absolute;
-  bottom: -24vw;
+  bottom: -20vw;
   left: 42vw;
 }
 .new4{
   position: absolute;
-  bottom: -24vw;
+  bottom: -20vw;
   left: 86vw;
+}
+.arrow{
+  position: absolute;
+  left: -4vw;
 }

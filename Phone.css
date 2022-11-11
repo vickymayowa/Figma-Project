@@ -24,7 +24,7 @@
   left: -270px;
 }
 body{
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 .tem{
   display: none;

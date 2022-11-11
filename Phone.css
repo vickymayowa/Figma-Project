@@ -12,6 +12,7 @@
   position: absolute;
   top: 90vh;
   z-index: 2; 
+  margin-left: -50px;
 }
 .new{
   position: absolute;
@@ -24,7 +25,7 @@
   left: -270px;
 }
 body{
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 .tem{
   display: none;
@@ -33,4 +34,19 @@ body{
   position: absolute;
   top: 255vh;
   right: 10px;
+}
+.news{
+  position: absolute;
+  bottom: -330px;
+  left: 70px;
+}
+.new3{
+  position: absolute;
+  bottom: -24vw;
+  left: 42vw;
+}
+.new4{
+  position: absolute;
+  bottom: -24vw;
+  left: 86vw;
 }

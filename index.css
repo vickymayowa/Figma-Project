@@ -50,14 +50,14 @@
     bottom: -63px;
     left: 1200px;
 }
-  .togg{
-      margin-left: -90px;
-      border-radius: 30px;
-  }
-  .head{
-      position: absolute;
-      left: 90vw;
-  }
+.togg{
+    margin-left: -90px;
+    border-radius: 30px;
+}
+.head{
+    position: absolute;
+    left: 90vw;
+}
 .teem{
     position: relative;
     left: 2vw;

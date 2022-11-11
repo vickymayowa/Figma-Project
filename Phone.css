@@ -50,6 +50,9 @@ body{
   bottom: -20vw;
   left: 86vw;
 }
+.carol1{
+  display: none;
+}
 .arrow{
   position: absolute;
   left: -4vw;

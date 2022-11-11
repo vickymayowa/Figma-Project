@@ -11,7 +11,7 @@
 </head>
 <body>
     <!-- CAROUSEL AND THE HERO SECTION -->
-    <div>
+    <div class="carol1">
         <div class="carousel-indicators carol">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class="btn-black"></button>
@@ -64,7 +64,7 @@
                     </div>
 
                 </nav>
-                <div class="carousel-item active">
+              <div class="image carousel-item active">
                 <img src="/img/image 6.png" class="d-block  w-100" style="height: 90vh;">
 
                 <span class="span3"><b>1 of 3</b></span>
@@ -88,10 +88,82 @@
               <span class="" aria-hidden="true"><img src="/img/Vector (2).png" alt=""></span>
               <span class="visually-hidden">Next</span>
             </button>
-          </div>
+        </div>
     </div>
-    <div>
 
+
+    <!-- Carol 2 -->
+    <div class="d-lg-none">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-inner">
+                <nav class="span navbar  navbar-expand-lg navbar-light pe-5 ps-5">
+                    <a href="#" class="navbar-brand">
+                        <img src="/img/Minimal..png" width="80px">
+                    </a>
+
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="#" class="nav-link  text-dark"><b>Shop</b></a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-dark">About</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-dark">Contact</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-dark">FAQ</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-dark"><img src="/img/Capture-removebg-preview.png" width="25px"></a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="wood">
+                        <b class="" style="font-size: 40px;">Wood Cloth Sofa <br> <a href="" class="text-black fs-5">See More</a></b>
+                    </div>
+                    
+                </nav>  
+                
+                <nav class="spans navbar d-lg-none navbar-expand-lg navbar-light pe-5 ps-5">
+                    <a href="#" class="navbar-brand">
+                        <img src="/img/Minimal..png" width="80px">
+                    </a>
+                    <button class="toggle navbar-toggler me-5" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="#" class="nav-link  text-dark"><b>Shop</b></a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-dark">About</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-dark">Contact</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-dark">FAQ</a></li>
+                           
+                        </ul>
+                    </div>
+
+                </nav>
+              <div class="image carousel-item active">
+                <img src="/img/image 6.png" class="d-block  w-100" style="height: 90vh; border-radius:0px 0px 80px 80px; box-shadow: 30px;">
+
+                <span class="span3"><b>1 of 3</b></span>
+              </div>
+              <div class="carousel-item">
+                <img src="/img/image 6.png" class="d-block w-100" style="height: 90vh;">
+
+                <span class="span3"><b>2 of 3</b></span>
+              </div>
+              <div class="carousel-item">
+                <img src="/img/image 6.png" class="d-block w-100" style="height: 90vh;">
+
+                <span class="span3"><b>3 of 3</b></span>
+              </div>
+            </div>
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="" aria-hidden="true"><img src="/img/Vector (1).png" alt=""></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="" aria-hidden="true"><img src="/img/Vector (2).png" alt=""></span>
+              <span class="visually-hidden">Next</span>
+            </button> -->
+        </div>
+    </div>
+    
     <!-- THE CONTENT SECTION -->
     <div class="section2 mt-5 ps-5 row first">
         <div class="ps-5 ms-5 col-4">
@@ -149,14 +221,14 @@
             <div class="d-flex img" style="gap: 30px;">
                 <a href="/link2.html"> <img src="/img/image 2.png"></a>
                  <span class="new fs-3"><b>New</b></span>
-                 <span class="new3"><img src="/img/Vector (8).png" alt=""></span>
+                 <span class="new3" id="output"><img src="/img/Vector (8).png" alt="" onclick="love()"></span>
                  <span class="news fs-3"><b class="fs-3">Chair & Table <br> <b class="text-muted">$69.00</b></b></span>
                 <a href="link3.html"> <img src="/img/image 4.png"></a>
             </div> 
             
             <div class="d-flex mt-4 img" style="gap: 30px;">
                 <a href="/link4.html"><img src="/img/image 5.png"></a>
-                <span class="new4"><img src="/img/Vector (8).png" alt=""></span>
+                <span class="new4" id="out"><img src="/img/Vector (8).png" alt="" onclick="put()"></span>
                 <a href="link.html"><img src="/img/item4.png" class=""></a>
             </div>
 
@@ -171,6 +243,8 @@
         </div>
     </div>
 
+
+    <!-- SECTION 2 -->
     <div class="me">
         
         <div class="section2 mt-5 ps-5 row d-lg-none">
@@ -290,9 +364,9 @@
                 <div class="img">
                    <a href="link2.html"> <img src="/img/image 2.png" alt=""></a>
                     <span class="new fs-3"><b>New</b></span>
-                 <span class="new3"><img src="/img/Vector (8).png" style="height: 25px; width: 25px;"></span>
+                 <span class="new3" id="ou"><img src="/img/Vector (8).png" style="height: 25px; width: 25px;" onclick="pu()"></span>
                     <span class="news fs-3"><b class="fs-3">Chair & Table <br> <b class="text-muted">$69.00</b></b></span>
-                 <span class="new4"><img src="/img/Vector (8).png" style="height: 25px; width: 25px;"></span>
+                 <span class="new4" id="ot"><img src="/img/Vector (8).png" style="height: 25px; width: 25px;" onclick="pt()"></span>
                 </div>
     
                 <div class="img">
@@ -353,8 +427,10 @@
                 <li class="nav ms-3 "><button class="text-center" style="width: 150px; height: 30px;"><b>Send</b></button></li> 
             </ul>
         </div>
+
     </div>
 
     <script src="/bootstrap-5.1.3-dist - Copy/js/bootstrap.bundle.js"></script>
+    <script src="/index.js"></script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 .toggle{
-  margin-left: 370px;
+  margin-left: 230px;
   margin-top: -30px;
 }
 .span, .first, .footer{
@@ -32,7 +32,7 @@ body{
 }
 .number{
   position: absolute;
-  top: 255vh;
+  top: 230vh;
   right: 10px;
 }
 .news{
@@ -42,13 +42,13 @@ body{
 }
 .new3{
   position: absolute;
-  bottom: -20vw;
-  left: 42vw;
+  bottom: -25vw;
+  left: 54vw;
 }
 .new4{
   position: absolute;
-  bottom: -20vw;
-  left: 86vw;
+  bottom: -25vw;
+  left: 116vw;
 }
 .carol1{
   display: none;
@@ -59,4 +59,8 @@ body{
 }
 .mee{
   display: none;
+}
+.options{
+  margin-left: 50px;
+  margin-top: -13px;
 }
